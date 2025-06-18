@@ -1,6 +1,13 @@
 # Oficina GitHub - NRE Ivaiporã
 
-Material desenvolvido pelo Prof. Richardson Schawarski para a Oficina GitHub do Núcleo Regional de Educação de Ivaiporã.
+Material desenvolvido pelo Prof. Richardson Schawarski para a 
+Oficina GitHub do Núcleo Regional de Educação de Ivaiporã.
+
+## 🔗 Downloads dos materiais
+- [PDF Criando Conta](https://github.com/professorrichardson/SiteFormacaoIVP2025/blob/main/materiais/Material%20GitHub-CriandoConta.pdf)
+-  [PDF Criando Repositorio](https://github.com/professorrichardson/SiteFormacaoIVP2025/blob/main/materiais/Material%20GitHub-CriandoRepositorio.pdf)
+- [PDF CodeSpace](https://github.com/professorrichardson/SiteFormacaoIVP2025/blob/main/materiais/Material%20GitHub-CodeSpace.pdf)
+---
 
 ## 📌 Conteúdo da Oficina
 
@@ -62,11 +69,7 @@ Material desenvolvido pelo Prof. Richardson Schawarski para a Oficina GitHub do 
 - [Site da Formação](https://professorrichardson.github.io/SiteFormacaoIVP2025/)
 
 ---
-## 🔗 Downloads dos materiais
-- [PDF Criando Conta](https://github.com/professorrichardson/SiteFormacaoIVP2025/blob/main/materiais/Material%20GitHub-CriandoConta.pdf)
--  [PDF Criando Repositorio](https://github.com/professorrichardson/SiteFormacaoIVP2025/blob/main/materiais/Material%20GitHub-CriandoRepositorio.pdf)
-- [PDF CodeSpace](https://github.com/professorrichardson/SiteFormacaoIVP2025/blob/main/materiais/Material%20GitHub-CodeSpace.pdf)
----
+
 ## 🔗  Extenções
 
   - `Live Server`- [Add VsCode](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
