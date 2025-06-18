@@ -1,4 +1,4 @@
-/*. oi =====   ajwhhedhsdjhahjdhjasdESTILOS GERAIS ===== */
+/*=====ESTILOS GERAIS ===== */
 body {
   font-family: 'Arial', sans-serif;  /* Define a fonte padrão */
   margin: 0;                         /* Remove margens padrão do navegador */
@@ -14,7 +14,7 @@ header {
   color: white;                      /* Cor do texto */
   padding: 20px;                     /* Espaçamento interno */
   display: flex;                     /* Ativa flexbox para alinhamento */
-  justify-content: space-between;    /* Espaço entre elementos */
+  justify-content: center;    /* Espaço entre elementos */
   align-items: center;               /* Centraliza verticalmente */
   flex-wrap: wrap;                   /* Permite quebra de linha em telas pequenas */
 }
@@ -38,7 +38,7 @@ header {
 
 /* Container do texto no header */
 .header-text {
-  text-align: left;                  /* Alinhamento à esquerda */
+  text-align: center;                  /* Alinhamento à esquerda */
 }
 
 /* ===== BOTÕES ===== */
@@ -79,6 +79,11 @@ h2 {
 ul {
   padding-left: 20px;               /* Recuo para alinhar marcadores */
   list-style-type: square;          /* Estilo dos marcadores */
+}
+
+.link{
+  margin-bottom: 15px;              /* Espaço entre parágrafos e links */
+  color: #040404;                      /* Cor do texto secundário */
 }
 
 /* ===== RODAPÉ ===== */
@@ -143,4 +148,9 @@ body.dark-mode button:hover {
 body.dark-mode .profile-img {
   border-color: #64b5f6;           /* Borda azul no modo escuro */
   box-shadow: 0 2px 4px rgba(0,0,0,0.4); /* Sombra mais visível */
+}
+
+body.dark-mode .link {
+  margin-bottom: 15px;              /* Espaço entre parágrafos e links */
+  color: #ede8e8;                      /* Cor do texto secundário */
 }
