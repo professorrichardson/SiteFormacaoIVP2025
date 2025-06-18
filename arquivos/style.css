@@ -1,0 +1,109 @@
+/* Estilos gerais do corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte padrão */
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove paddings padrão */
+  background-color: #f5f7fa; /* Cor de fundo clara padrão */
+  color: #333; /* Cor do texto escura */
+}
+
+/* Estilo do cabeçalho */
+header {
+  background-color: #2c3e50; /* Cor de fundo azul escuro */
+  color: white; /* Texto branco */
+  text-align: center; /* Centraliza o conteúdo */
+  padding: 30px 10px; /* Espaçamento interno */
+}
+
+/* Estilo base para botões */
+button {
+  margin: 5px; /* Espaçamento externo */
+  padding: 10px 15px; /* Espaçamento interno */
+  background-color: #3498db; /* Cor azul */
+  color: white; /* Texto branco */
+  border: none; /* Remove borda padrão */
+  border-radius: 5px; /* Bordas arredondadas */
+  cursor: pointer; /* Muda cursor para pointer */
+}
+
+/* Efeito hover para botões */
+button:hover {
+  background-color: #2980b9; /* Cor azul mais escura no hover */
+}
+
+/* Estilo das seções de conteúdo */
+section {
+  max-width: 800px; /* Largura máxima */
+  margin: 20px auto; /* Centraliza na página */
+  background-color: white; /* Fundo branco */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 8px; /* Bordas arredondadas */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Sombra sutil */
+}
+
+/* Estilo dos títulos h2 */
+h2 {
+  color: #2c3e50; /* Cor do texto azul escuro */
+  border-bottom: 2px solid #3498db; /* Borda inferior azul */
+  padding-bottom: 5px; /* Espaçamento abaixo do texto */
+  margin-bottom: 15px; /* Margem abaixo do elemento */
+}
+
+/* Estilo das listas não ordenadas */
+ul {
+  padding-left: 20px; /* Recuo para alinhar marcadores */
+}
+
+/* Estilo do rodapé */
+footer {
+  text-align: center; /* Centraliza conteúdo */
+  padding: 15px; /* Espaçamento interno */
+  background-color: #2c3e50; /* Cor igual ao cabeçalho */
+  color: white; /* Texto branco */
+  margin-top: 30px; /* Espaço acima do rodapé */
+}
+
+/* Media query para dispositivos móveis */
+@media (max-width: 600px) {
+  section {
+    margin: 10px; /* Reduz margens */
+    padding: 15px; /* Reduz padding */
+  }
+}
+
+/* ========== ESTILOS DO MODO ESCURO ========== */
+
+/* Corpo no modo escuro */
+body.dark-mode {
+  background-color: #1e1e1e; /* Fundo escuro */
+  color: #f5f5f5; /* Texto claro */
+}
+
+/* Cabeçalho e rodapé no modo escuro */
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #121212; /* Tom mais escuro */
+}
+
+/* Seções no modo escuro */
+body.dark-mode section {
+  background-color: #2a2a2a; /* Fundo cinza escuro */
+  color: #f5f5f5; /* Texto claro */
+}
+
+/* Títulos h2 no modo escuro */
+body.dark-mode h2 {
+  color: #ffffff; /* Texto branco */
+  border-color: #90caf9; /* Borda azul claro */
+}
+
+/* Botões no modo escuro */
+body.dark-mode button {
+  background-color: #90caf9; /* Azul claro */
+  color: #000; /* Texto preto */
+}
+
+/* Efeito hover dos botões no modo escuro */
+body.dark-mode button:hover {
+  background-color: #64b5f6; /* Azul claro mais escuro */
+}
